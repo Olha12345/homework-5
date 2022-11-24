@@ -115,28 +115,11 @@ p {
   line-height: 1.5;
 }
 
-.about {
-  padding: 40px;
-}
-.about p {
-  text-align: center;
-  font-size: 24px;
-  padding-left: 4s0px;
-}
-.hr-shelf {
-  margin: -30px auto 10px;
-  padding: 0;
-  height: 50px;
-  border: none;
-  border-bottom: 1px solid #1f1209;
-  box-shadow: 0 20px 20px -20px #333;
-  width: 95%;
-}
 .project {
-  padding-top: 20px;
+  padding-top: 80px;
 }
 .certificates {
-  margin-top: 120px;
+  margin-top: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--secondary-color);
@@ -170,11 +153,21 @@ p {
   transition-duration: 0.5s;
 }
 .list img {
-  display: inline;
+  display: block;
+  justify-content: space-evenly;
   height: 50px;
   padding-left: 30px;
   padding-bottom: 15px;
 }
-.code {
+.footer {
+  margin-top: 100px;
   text-align: center;
+  font-size: 14px;
+  max-width: 100%;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #000000;
 }
