@@ -28,7 +28,17 @@ body {
 .navbar a {
   font-size: 18px;
 }
-
+.about {
+  text-align: center;
+  background-color: rgb(70, 68, 68);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.hi {
+  color: rgb(185, 183, 183);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 .emoji {
   display: inline !important;
   border: none !important;
@@ -44,6 +54,7 @@ body {
   background: var(--primary-color);
   max-width: 100%;
 }
+
 .me {
   padding-left: 40px;
   padding-top: 40px;
@@ -97,6 +108,7 @@ body {
   font-size: 26px;
   color: rgb(185, 183, 183);
   padding-bottom: 60px;
+  margin-top: 20px;
 }
 .me p {
   color: var(--secondary-color);
@@ -170,4 +182,15 @@ p {
 }
 .footer a:hover {
   color: #000000;
+}
+.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
 }
