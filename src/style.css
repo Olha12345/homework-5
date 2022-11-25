@@ -18,15 +18,31 @@ body {
   line-height: 1;
   font-family: var(--heading-font-family);
 }
-.navbar {
-  position: relative;
-  display: flex;
-  background-color: var(--secondary-color);
-  color: black;
-  position: fixed;
+.nav {
+  padding: 20px 0;
 }
-.navbar a {
-  font-size: 18px;
+.logo {
+  max-width: 60px;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #676666;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: #000000;
 }
 .about {
   text-align: center;
@@ -39,17 +55,7 @@ body {
   font-size: 24px;
   margin-bottom: 20px;
 }
-.emoji {
-  display: inline !important;
-  border: none !important;
-  box-shadow: none !important;
-  height: 1em !important;
-  width: 1em !important;
-  margin: 0 0.07em !important;
-  vertical-align: -0.1em !important;
-  background: none !important;
-  padding: 0 !important;
-}
+
 .hero {
   background: var(--primary-color);
   max-width: 100%;
@@ -71,7 +77,6 @@ body {
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
-  margin-top: 40px;
 }
 .button {
   background-color: var(--primary-color);
@@ -127,15 +132,6 @@ p {
   line-height: 1.5;
 }
 
-.project {
-  padding-top: 80px;
-}
-.certificates {
-  margin-top: 60px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: var(--secondary-color);
-}
 .certificates img {
   justify-content: space-around;
 }
